@@ -29,13 +29,13 @@
   color: #525252;
 }
 
-@media (max-width: 1000px) {
+@media (width <= 1000px) {
   .introducao h1 {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 800px) {
+@media (width <= 800px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (width <= 400px) {
   .introducao {
     grid-template-columns: 1fr;
   }

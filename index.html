@@ -1,15 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta
+      name="description"
+      content="Desenvolvedor Full Stack e Web Designer Localizado em Divinópolis/MG"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="svg+xml" />
     <title>Comandos - Web Developer</title>
   </head>
 
   <body>
     <header class="container header">
-      <img src="./assets/logo.svg" alt="Comandos" />
+      <img src="./assets/logo.svg" alt="Comandos" width="188" height="41" />
       <nav>
         <ul class="header-menu">
           <li><a href="#experiencia">Experiência</a></li>
@@ -20,7 +25,13 @@
     </header>
 
     <main class="container introducao">
-      <img src="./assets/hero-picture.jpg" alt="Códigos na tela" />
+      <img
+        src="./assets/hero-picture.avif"
+        alt="Códigos na tela"
+        width="360"
+        height="520"
+      />
+
       <div>
         <h1>
           Desenvolvedor<br />
@@ -31,7 +42,11 @@
       </div>
     </main>
 
-    <section class="container experiencia" id="experiencia" aria-label="Experiência">
+    <section
+      class="container experiencia"
+      id="experiencia"
+      aria-label="Experiência"
+    >
       <h2 class="subtitulo">Experiência</h2>
       <div>
         <p class="experiencia-texto">
@@ -46,7 +61,7 @@
           <span class="empresa-ano">2045</span>
           <h3 class="empresa-titulo">Bikcraft</h3>
           <span class="empresa-titulo">Desenvolvedor Júnior</span>
-          <p>
+          <p class="empresa-texto">
             No projeto Bikcraft eu trabalhei no desenvolvimento completo do
             HTML, CSS e JavaScript do site. Além disso, também prestei
             consultoria no Design.
@@ -64,10 +79,10 @@
           <span class="empresa-ano">2044 - 45</span>
           <h3 class="empresa-titulo">Surfbot</h3>
           <span class="empresa-titulo">Estagiário</span>
-          <p>
-            No projeto Bikcraft eu trabalhei no desenvolvimento completo do
-            HTML, CSS e JavaScript do site. Além disso, também prestei
-            consultoria no Design.
+          <p class="empresa-texto">
+            Surfbot é uma empresa que oferece aulas de surf no Rio de Janeiro. O
+            projeto foi feito com HTML, CSS e JavaScript. Todo o projeto foi
+            feito do zero.
           </p>
           <ul class="empresa-habilidades">
             <li>HTML</li>
@@ -80,10 +95,9 @@
           <span class="empresa-ano">2044</span>
           <h3 class="empresa-titulo">Brafé</h3>
           <span class="empresa-titulo">Voluntário</span>
-          <p>
-            No projeto Bikcraft eu trabalhei no desenvolvimento completo do
-            HTML, CSS e JavaScript do site. Além disso, também prestei
-            consultoria no Design.
+          <p class="empresa-texto">
+            Mais de 3 projetos foram desenvolvidos para a empresa Brafé. Eu
+            trabalhei na criação do email marketing e também no HTML.
           </p>
           <ul class="empresa-habilidades">
             <li>Email Marketing</li>
@@ -94,5 +108,77 @@
         </div>
       </div>
     </section>
+
+    <section class="formacao" id="formacao" aria-label="Formação">
+      <div class="container formacao-container">
+        <h2 class="subtitulo">Formação</h2>
+
+        <div>
+          <p class="formacao-texto">
+            Minha mais recente experiência acadêmica foi o
+            <strong>mestrado</strong> 🎓 que fiz no exterior em
+            <strong>UX Design.</strong> Além disso me mantenho sempre atualizado
+            com cursos intensivos online.
+          </p>
+
+          <ul class="faculdade-lista">
+            <li class="faculdade">
+              <span class="faculdade-tipo">Bacharel</span>
+              <h3 class="faculdade-curso">Farmácia</h3>
+              <span class="faculdade-instituicao">UFSJ</span>
+            </li>
+
+            <li class="faculdade">
+              <span class="faculdade-tipo">Bacharel</span>
+              <h3 class="faculdade-curso">Ciências da Computação</h3>
+              <span class="faculdade-instituicao">Wyden</span>
+            </li>
+
+            <li class="faculdade">
+              <span class="faculdade-tipo">Pós-Graduado</span>
+              <h3 class="faculdade-curso">Web Development</h3>
+              <span class="faculdade-instituicao">IMES</span>
+            </li>
+          </ul>
+
+          <div class="formacao-extra">
+            <div class="cursos">
+              <h3>Cursos Intensivos</h3>
+
+              <ul>
+                <li>Web Development Bootcamp <span>62h</span></li>
+                <li>Complete JavaScript <span>67h</span></li>
+                <li>Tailwind <span>17h</span></li>
+              </ul>
+            </div>
+
+            <div class="idiomas">
+              <h3>Idiomas</h3>
+
+              <ul>
+                <li>Inglês <span>/ Avançado</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contato">
+      <div class="footer-container container">
+        <p class="footer-texto">
+          Estou disponível para novos projetos no momento. Entre em contato
+          comigo e marcamos uma conversa 👋
+        </p>
+
+        <ul class="footer-contato">
+          <li>mcomanduci@gmail.com</li>
+          <li>+55 37 99198-1302</li>
+          <li><a href="https://instagram.com/mcomanduci">@mcomanduci</a></li>
+        </ul>
+
+        <p class="footer-copy">Comandos. Alguns direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>

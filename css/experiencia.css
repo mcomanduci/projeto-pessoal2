@@ -78,3 +78,31 @@
   background-color: white;
   padding: 5px 10px;
 }
+
+@media (width <= 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (width <= 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}
